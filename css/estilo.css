@@ -1,0 +1,43 @@
+body {
+  background-color: chocolate; }
+
+header {
+  background-color: cadetblue;
+  color: white;
+  text-align: center; }
+  header .nav {
+    width: 90%;
+    background-color: beige;
+    margin: 10px auto; }
+    header .nav .ulnav {
+      list-style-type: none;
+      padding: 10px;
+      margin: 10px auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: left; }
+      header .nav .ulnav .menu {
+        padding: 10px;
+        margin: 10px; }
+        header .nav .ulnav .menu:hover {
+          background-color: chocolate;
+          border-radius: 15%; }
+
+main {
+  background-color: black;
+  color: white; }
+  main .subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; }
+    main .subtitulo .pmain {
+      font-family: sans-serif; }
+
+footer {
+  background-color: yellow; }
+  footer .ulfooter {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
